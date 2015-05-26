@@ -3,9 +3,9 @@
 <hibernate-configuration>
   <session-factory>
     <property name="hibernate.connection.driver_class">com.microsoft.sqlserver.jdbc.SQLServerDriver</property>
-    <property name="hibernate.connection.url">jdbc:sqlserver://localhost:1433;databaseName=Spring1</property>
-    <property name="hibernate.connection.username">sa</property>
-    <property name="hibernate.connection.password">çuke</property>
+    <property name="hibernate.connection.url">jdbc:sqlserver://<dbhost>:1433;<dbName></property>
+    <property name="hibernate.connection.username"><username></property>
+    <property name="hibernate.connection.password"><password></property>
     <property name="hibernate.connection.pool_size">1</property>
     <!-- SQL dialect -->
     <property name="hibernate.dialect">org.hibernate.dialect.SQLServerDialect</property>
