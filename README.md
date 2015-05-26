@@ -1,2 +1,10 @@
 # SpringMvcHibernate
-A simple web app that uses SpringMVC, Hibernate and Bootstrap
+A simple Crud web app that uses Spring MVC, Hibernate and Bootstrap
+###Technologies used:
+
+Spring Mvc
+Hibernate
+Bootstrap
+Netbeans 
+GlassFish
+Mssql
