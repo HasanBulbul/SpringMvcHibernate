@@ -1,8 +1,4 @@
-<%-- 
-    Document   : create
-    Created on : May 22, 2015, 10:02:27 AM
-    Author     : Hasan
---%>
+
 <%@taglib prefix="f" uri="http://www.springframework.org/tags/form" %>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
