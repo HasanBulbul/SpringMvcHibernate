@@ -1,8 +1,6 @@
 package entity;
 // Generated May 21, 2015 5:05:47 PM by Hibernate Tools 3.6.0
 
-
-import java.io.Serializable;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -74,8 +72,39 @@ public class Employees  implements java.io.Serializable {
         this.password = password;
     }
 
+     @Override
+    public int hashCode() {
+        int hash = 3;
+        hash = 47 * hash + this.id;
+        hash = 47 * hash + Objects.hashCode(this.name);
+        hash = 47 * hash + Objects.hashCode(this.lastname);
+        hash = 47 * hash + Objects.hashCode(this.password);
+        return hash;
+    }
 
-
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Employees other = (Employees) obj;
+        if (this.id != other.id) {
+            return false;
+        }
+        if (!Objects.equals(this.name, other.name)) {
+            return false;
+        }
+        if (!Objects.equals(this.lastname, other.lastname)) {
+            return false;
+        }
+        if (!Objects.equals(this.password, other.password)) {
+            return false;
+        }
+        return true;
+    }
 
 }
 
