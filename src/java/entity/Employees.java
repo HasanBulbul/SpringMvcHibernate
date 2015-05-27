@@ -13,7 +13,7 @@ import javax.persistence.Table;
  */
 @Entity
 @Table(name="Employees")
-public class Employees  implements java.io.Serializable {
+public class Employees {
 
 
      private int id;
