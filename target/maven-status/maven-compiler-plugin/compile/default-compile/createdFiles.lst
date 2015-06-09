@@ -1,6 +1,0 @@
-com\hitsoft\dao\impl\StudentDaoImpl.class
-com\hitsoft\controller\StudentController.class
-com\hitsoft\service\StudentService.class
-com\hitsoft\dao\StudentDao.class
-com\hitsoft\service\impl\StudentServiceImpl.class
-com\hitsoft\model\Student.class
