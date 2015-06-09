@@ -1,0 +1,38 @@
+
+//Notlar//
+-----------------------------------
+
+**Kullanılan Teknolojiler:
+    -Hibernate 3.6.7
+    -Spring Mcv 3.0.5
+    -MsSql 2012
+    -NetBeans 7.4
+    -SqlJdbc 4.0
+    -JDK 1.7
+    -GlassFish 4.0
+
+-----------------------------------
+
+**Veritabanı:
+    -Hibernate ve db.properties ile sağlandı.
+    -Bir tablo (Spring1);
+        *Student tablosu 4 sutundan oluşuyor (id,name,lastname,yearLevel).
+    -Crud işlemleri 
+	-Veritabanı olarak Spring1'e Student tablosu eklendi ve bunun üerinde işlem yapıldı.
+
+------------------------------------
+
+**Spring Mvc:
+    -Spring controller özelliği kullanıldı.
+    -Spring .xml dosyasına UTF-8 kodu için filtre eklendi.
+    -Proje maven ile hazırlandı.
+    -Proje bunsan sonra yapacağım uygulamalar için örnek teşkil edecektir.
+    -Katmanlı mimari kullanıldı ve servlet üzerinden sessionfactory üretildi.
+    -log4j.xml kullanıldı.
+
+-------------------------------------
+
+**Proje Bilgisi:
+    -Proje çalışıyor.
+    -Crud yapılabiliyor.
+    -8.6.15
