@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 package com.company.controller;
 
@@ -25,8 +20,7 @@ public class StudentController {
     
     @RequestMapping(value = "/all", method = RequestMethod.GET)
     public String getall(Model m){
-        
-        //m.addAttribute("student", s);
+
         m.addAttribute("lst", studentService.getAll());
         return "index";
     

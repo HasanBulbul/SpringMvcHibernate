@@ -3,14 +3,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <!-- Latest compiled and minified CSS -->
+       
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
 
-        <!-- Optional theme -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
         
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>    
-        <!-- Latest compiled and minified JavaScript -->
+
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -18,7 +17,7 @@
     </head>
     <body>
         <div class="container">
-        <h2>Student</h2>
+        <h2>Student Data</h2>
          
         <p><td><a href="redirectCreate.html" class="btn btn-success" role="button">Add new a Student</a></p>
         <table class="table table-hover">
