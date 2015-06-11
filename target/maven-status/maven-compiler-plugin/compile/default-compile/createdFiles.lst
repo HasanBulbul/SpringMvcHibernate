@@ -1,6 +1,0 @@
-com\company\dao\StudentDao.class
-com\company\service\impl\StudentServiceImpl.class
-com\company\service\StudentService.class
-com\company\dao\impl\StudentDaoImpl.class
-com\company\model\Student.class
-com\company\controller\StudentController.class
